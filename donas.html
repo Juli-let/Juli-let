@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donas - CakeCoder</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffebf0;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* Recipe Container */
+        .recipe-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: white;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        /* Title Styles */
+        h1 {
+            font-size: 2.5em;
+            color: #ff6b88;
+            margin-bottom: 10px;
+            font-family: 'Georgia', serif;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #ff6b88;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        /* Ingredient and Instructions Lists */
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+            text-align: left;
+        }
+
+        ul li {
+            background-color: #ffe6ec;
+            color: #333;
+            margin: 5px 0;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 1.1em;
+        }
+
+        /* Sublist Styling */
+        ul ul {
+            padding-left: 20px;
+        }
+
+        ul ul li {
+            background: none;
+            padding: 5px 0;
+            font-size: 1em;
+        }
+
+        .instructions li {
+            background: none;
+            padding: 5px 0;
+        }
+
+        /* Button */
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ff6b88;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #e05570;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            .recipe-container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="recipe-container">
+        <h1>Donas</h1>
+
+        <h2>Ingredientes</h2>
+        
+        <h3>Para la masa:</h3>
+        <ul>
+            <li>250 ml de leche tibia</li>
+            <li>75 g de azúcar</li>
+            <li>10 g de sal</li>
+            <li>2 huevos</li>
+            <li>50 g de mantequilla derretida</li>
+            <li>500 g de harina de trigo</li>
+            <li>7 g de levadura seca (o 20 g de levadura fresca)</li>
+            <li>Aceite para freír</li>
+        </ul>
+
+        <h3>Para glasear (opcional):</h3>
+        <ul>
+            <li>200 g de azúcar glass (azúcar en polvo)</li>
+            <li>2-3 cucharadas de leche (o agua)</li>
+            <li>Esencia de vainilla (opcional)</li>
+            <li>Chocolate derretido (opcional)</li>
+        </ul>
+
+        <h2>Instrucciones</h2>
+        <ul class="instructions">
+            <li><strong>1. Activar la levadura:</strong> Mezcla la leche tibia con 1 cucharadita de azúcar y la levadura. Deja reposar 10 minutos hasta que esté espumosa.</li>
+            <li><strong>2. Mezclar los ingredientes:</strong> Combina la harina, el resto del azúcar y la sal. Haz un hueco en el centro y añade los huevos, la mantequilla y la mezcla de leche con levadura.</li>
+            <li><strong>3. Amasar:</strong> Mezcla hasta formar una masa. Amasa durante 10 minutos hasta que esté suave y elástica.</li>
+            <li><strong>4. Primer levado:</strong> Forma una bola con la masa, colócala en un bol engrasado, cubre y deja reposar 1 hora hasta que duplique su tamaño.</li>
+            <li><strong>5. Formar las donas:</strong> Estira la masa sobre una superficie enharinada hasta 1 cm de grosor. Corta círculos y haz un agujero en el centro.</li>
+            <li><strong>6. Segundo levado:</strong> Coloca las donas en una bandeja forrada, cubre y deja reposar 30 minutos.</li>
+            <li><strong>7. Freír las donas:</strong> Calienta aceite a 180 °C y fríe las donas 1-2 minutos por cada lado hasta que estén doradas. Retira y coloca sobre papel absorbente.</li>
+            <li><strong>8. Glasear (opcional):</strong> Mezcla el azúcar glass con leche hasta obtener una consistencia suave. Sumerge las donas en el glaseado o rocía por encima.</li>
+            <li><strong>9. Servir:</strong> Deja enfriar un poco antes de disfrutar tus deliciosas donas caseras.</li>
+        </ul>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SXmdspjrG7E?si=1UVdmXpZHebYVhkJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+</body>
+</html>
